@@ -9,11 +9,11 @@ Create a new data frame that includes flights headed to SFO in February, and sav
 this data frame as `sfo_feb_flights`. How many flights meet these criteria? 
 
 *** =instructions
-- <li> 68 </li>
-- <li> 1345 </li>
-- <li> 2286 </li>
-- <li> 3563 </li>\
-- <li> 32735 </li>
+- 68 
+- 1345
+- 2286
+- 3563
+- 32735
 
 *** =hint
 Remember the `|` operator allows you to filter for more than one variable. 
