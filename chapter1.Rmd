@@ -22,6 +22,9 @@ Remember the `|` operator allows you to filter for more than one variable.
 ```{r,eval=FALSE}
 library(dplyr)
 library(ggplot2)
+datacamp <- function(){
+file.edit("lab1.Rmd")
+}
 ```
 
 *** =sct
