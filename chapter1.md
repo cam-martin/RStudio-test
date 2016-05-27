@@ -1,36 +1,36 @@
 ---
-title       : Orientation
-description : Chapter on orientation
+title       : Introduction to data
+description : StatsWithR Lab2
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:9f04a059fc
-## Using the tab button
+## Filtering and Counting
 
-If you want to be a real data science master, the 'tab' button on your keyboard will quickly become your best friend. You can use the tab button in various settings to automatically provide a list of all available functions, arguments, packages, objects, etc. 
-
-In the last video, you saw Garrett use `read.csv()`, which is a function used to import CSV files into R. `read.csv()` takes many arguments. Enter `read.csv()` and then hit the tab button (making sure the cursor is in between the parentheses). 
-
-Which of the following is not an argument to the `read.csv()` function?
+Create a new data frame that includes flights headed to SFO in February, and save 
+this data frame as `sfo_feb_flights`. How many flights meet these criteria? 
 
 *** =instructions
-- `file`
-- `fill`
-- `xlab`
-- `header`
+- <li> 68 </li>
+- <li> 1345 </li>
+- <li> 2286 </li>
+- <li> 3563 </li>\
+- <li> 32735 </li>
 
 *** =hint
-Hit the 'tab' button while the cursor is in between the parentheses. From there, you can scroll through the options with the 'up arrow' and 'down arrow' keys to check if each of the options is there. 
+Remember the `|` operator allows you to filter for more than one variable. 
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
-# no pec
+library(dplyr)
+library(ggplot2)
+
 ```
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again! `file` is a required argument to the `read.csv()` function."
-msg2 <- "Try again! `fill` is an argument to the `read.csv()` function." 
-msg3 <- "Correct! The `xlab` argument is often seen in plotting functions to set the x-axis label, but not when importing data." 
-msg2 <- "Try again! `header` is an argument to the `read.csv()` function."
+msg1 <- "Try again! Look at the data frames dimensions with the `dim()` fucntion."
+msg2 <- "Try again! The data frames dimensions can be displayed with the `dim()` fucntion." 
+msg3 <- "Correct! There are 3,563 flights heading to San Francisco." 
+msg2 <- "Try again! Use `dim()` fucntion to display the data frames dimensions."
 
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4))
 ```
