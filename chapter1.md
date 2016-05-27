@@ -6,7 +6,7 @@ description : StatsWithR Lab2
 ## Filtering and Counting
 
 Create a new data frame that includes flights headed to SFO in February, and save 
-this data frame as `sfo_feb_flights`. How many flights meet these criteria? 
+this data frame as `sfo_feb_flights`. <p>How many flights meet these criteria?<p/>
 
 *** =instructions
 - 68 
