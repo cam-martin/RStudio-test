@@ -31,7 +31,6 @@ msg2 <- "Try again! The data frames dimensions can be displayed with the `dim()`
 msg3 <- "Try again! Use `dim()` fucntion to display the data frames dimensions."
 msg4 <- "Correct! There are 3,563 flights heading to San Francisco."
 msg5 <- "Not it! Use `dim()` fucntion to display the data frames dimensions."
-file.edit("~/lab1.Rmd")
 
 test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
