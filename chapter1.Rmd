@@ -20,7 +20,6 @@ Remember the `|` operator allows you to filter for more than one variable.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
-file.edit("http://s3.amazonaws.com/assets.datacamp.com/production/course_1126/datasets/student_lab_code_test.Rmd")
 library(dplyr)
 library(ggplot2)
 
@@ -36,4 +35,6 @@ msg5 <- "Not it! Use `dim()` fucntion to display the data frames dimensions."
 
 test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
+*** =attachments
+.Rmd: http://s3.amazonaws.com/assets.datacamp.com/production/course_1126/datasets/student_lab_code_test.Rmd
 
