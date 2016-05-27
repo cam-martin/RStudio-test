@@ -20,6 +20,7 @@ Remember the `|` operator allows you to filter for more than one variable.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
+file.edit("http://s3.amazonaws.com/assets.datacamp.com/production/course_1126/datasets/student_lab_code_test.Rmd")
 library(dplyr)
 library(ggplot2)
 
