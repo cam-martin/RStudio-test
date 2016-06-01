@@ -38,7 +38,7 @@ test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 *** =attachments
 lab1.Rmd: http://s3.amazonaws.com/assets.datacamp.com/production/course_1126/datasets/student_lab_code_test.Rmd
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:52318f1a5f
  
 ## Executing code
 To execute code that is written in your text editor, you can highlight the text and hit which two buttons on a Mac and PC, respectively? Try to execute the code in the script if you are unsure!
